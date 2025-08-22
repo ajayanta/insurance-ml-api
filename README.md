@@ -31,7 +31,5 @@ insurance-premium-prediction/
 │ └── user_input.py # Pydantic schema for input validation
 │
 ├── app.py # FastAPI app entry point
-├── Dockerfile # Docker configuration (optional)
 ├── requirements.txt # Python dependencies
-└── venv/ # Virtual environment (ignored in Git)
 
