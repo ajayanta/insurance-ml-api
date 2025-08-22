@@ -1,0 +1,28 @@
+# --- Python cache and compiled files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+venv/
+env/
+
+# --- Environment variables / secrets (if any) ---
+.env
+
+# --- IDE/editor-specific files ---
+.vscode/
+.idea/
+
+# --- OS-specific files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / temp files ---
+*.log
+
+# --- Model files (optional) ---
+# Uncomment if you want to ignore model.pkl or other large files
+# *.pkl
+# *.joblib
