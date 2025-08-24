@@ -28,7 +28,7 @@ def predict_premium(data: UserInput):
         'city_tier': data.city_tier,
         'income_lpa': data.income_lpa,
         'occupation': data.occupation
-    }]
+    }] 
     try:
 
         prediction=predict_output(user_input)
