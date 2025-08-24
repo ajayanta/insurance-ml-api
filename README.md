@@ -14,22 +14,4 @@ It demonstrates how to serve a trained **RandomForest classification model** as 
 - **Health check endpoint** to verify model status  
 - **Interactive API docs** via auto-generated Swagger UI and ReDoc  
 
----
-
-## Project Structure
-
-insurance-premium-prediction/
-│
-├── config/
-│ └── city_tier.py # Helper/config file for city tier mapping
-│
-├── model/
-│ ├── model.pkl # Trained RandomForest model (binary file)
-│ └── predict.py # Loads model and defines predict_output(), MODEL_VERSION
-│
-├── schema/
-│ └── user_input.py # Pydantic schema for input validation
-│
-├── app.py # FastAPI app entry point
-├── requirements.txt # Python dependencies
 
